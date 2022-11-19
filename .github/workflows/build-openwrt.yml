@@ -174,14 +174,24 @@ jobs:
         body_path: release.txt
         files: ${{ env.FIRMWARE }}/*
 
-    - name: Delete workflow runs
-      uses: Mattraks/delete-workflow-runs@v2
-      with:
-        token: ${{ github.token }}
-        repository: ${{ github.repository }}
-        retain_days: 1
-        keep_minimum_runs: 3
+      name: Delete old workflow runs
+      on:
+        schedule:
+          - cron: '0 0 1 * *'
+      # Run monthly, at 00:00 on the 1st day of month.
 
+      jobs:
+        del_runs:
+          runs-on: ubuntu-latest
+          steps:
+            - name: Delete workflow runs
+              uses: Mattraks/delete-workflow-runs@v2
+              with:
+                token: ${{ github.token }}
+                repository: ${{ github.repository }}
+                retain_days: 30
+                keep_minimum_runs: 6
+          
     - name: Remove old Releases
       uses: xiechangan123/delete-older-releases@v0.2.0
       if: env.UPLOAD_RELEASE == 'true' && !cancelled()
