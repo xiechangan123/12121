@@ -17,4 +17,4 @@
 #echo 'src-git helloworld https://github.com/fw876/helloworld' >>feeds.conf.default
 #echo 'src-git passwall https://github.com/xiaorouji/openwrt-passwall' >>feeds.conf.default
 # Add packages
-git clone https://github.com/yichya/luci-app-xray package/openwrt-xray
+git clone https://github.com/yichya/luci-app-xray package/luci-app-xray
