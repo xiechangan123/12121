@@ -12,7 +12,5 @@
 
 # Modify default IP
 #sed -i 's/192.168.1.1/192.168.50.5/g' package/base-files/files/bin/config_generate
-# Modify default TimeZone
-#sed -i 's/UTC/Asia/Shanghai/g' package/base-files/files/bin/config_generate
-# Modify default Password
+# Modify default password
 sed -i 's/root:::0:99999:7:::/root:$1$0MHbqDVw$FMCswXfbF5apRBrTWoVfA0:19333:0:99999:7:::/g' package/base-files/files/etc/shadow
