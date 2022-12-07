@@ -15,4 +15,4 @@
 # Modify default TimeZone
 sed -i 's/UTC/CST-8/g' package/base-files/files/bin/config_generate
 # Modify default Password
-#sed -i 's/root:::0:99999:7:::/root:password:0:99999:7:::/g' package/base-files/files/etc/shadow
+#sed -i 's/root:::0:99999:7:::/root:$1$0MHbqDVw$FMCswXfbF5apRBrTWoVfA0:19333:0:99999:7:::/g' package/base-files/files/etc/shadow
