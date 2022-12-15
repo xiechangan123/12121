@@ -1,1 +1,1 @@
-git-core build-essential libssl-dev libncurses5-dev unzip gawk asciidoc binutils bzip2 gettext git libz-dev patch python3 unzip subversion mercurial ccache rsync screen
+build-essential clang flex g++ gawk gcc-multilib gettext git libncurses5-dev libssl-dev python3-distutils rsync unzip zlib1g-dev file wget
