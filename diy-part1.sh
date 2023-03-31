@@ -19,4 +19,4 @@
 
 # Add packages
 git clone https://github.com/yichya/luci-app-xray package/luci-app-xray
-git clone https://github.com/Mitsuhaxy/luci-i18n-xray-zh-cn package/luci-i18n-xray-zh-cn
+git clone https://github.com/xiechangan123/luci-i18n-xray-zh-cn package/luci-i18n-xray-zh-cn
