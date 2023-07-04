@@ -20,3 +20,4 @@
 # Add packages
 git clone https://github.com/xiechangan123/luci-app-xray package/luci-app-xray-fw4
 git clone https://github.com/xiechangan123/luci-i18n-xray-zh-cn package/luci-i18n-xray-zh-cn
+git clone https://github.com/immortalwrt/homeproxy package/homeproxy
