@@ -18,6 +18,6 @@
 #echo 'src-git passwall https://github.com/xiaorouji/openwrt-passwall' >>feeds.conf.default
 
 # Add packages
-git clone https://github.com/xiechangan123/luci-app-xray package/luci-app-xray-fw4
+git clone https://github.com/xiechangan123/luci-app-xray package/luci-app-xray
 git clone https://github.com/xiechangan123/luci-i18n-xray-zh-cn package/luci-i18n-xray-zh-cn
 git clone https://github.com/immortalwrt/homeproxy package/homeproxy
