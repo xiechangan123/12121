@@ -19,3 +19,4 @@
 
 # Add packages
 git clone https://github.com/xiechangan123/homebridger package/homebridger
+git clone https://github.com/zfl9/chinadns-ng package/chinadns-ng
