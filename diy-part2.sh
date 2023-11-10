@@ -21,5 +21,5 @@ sed -i 's/UTC/CST-8/g' package/base-files/files/bin/config_generate
 sed -i "/.*ttylogin='0'.*/i\		set system.@system[-1].zonename='Asia/Shanghai'" package/base-files/files/bin/config_generate
 
 # Delete default sing-box
-rm -rf packages/net/sing-box
+rm -rf feeds/packages/net/sing-box
 git clone https://github.com/xiechangan123/openwrt-sing-box package/openwrt-sing-box
