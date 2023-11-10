@@ -20,3 +20,4 @@
 # Add packages
 git clone https://github.com/xiechangan123/homebridger package/homebridger
 git clone https://github.com/xiechangan123/openwrt-chinadns-ng package/openwrt-chinadns-ng
+git clone https://github.com/xiechangan123/openwrt-sing-box package/openwrt-sing-box
