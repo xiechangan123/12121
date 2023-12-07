@@ -18,5 +18,5 @@
 #echo 'src-git passwall https://github.com/xiaorouji/openwrt-passwall' >>feeds.conf.default
 
 # Add packages
-git clone https://github.com/xiechangan123/homebridger package/homebridger
+git clone https://github.com/xiechangan123/homeproxy package/homeproxy
 git clone https://github.com/xiechangan123/openwrt-chinadns-ng package/openwrt-chinadns-ng
