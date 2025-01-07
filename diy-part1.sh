@@ -17,5 +17,5 @@
 echo 'src-git helloworld https://github.com/fw876/helloworld' >>feeds.conf.default
 #echo 'src-git passwall https://github.com/xiaorouji/openwrt-passwall' >>feeds.conf.default
 
-# Add packages
-#git clone https://github.com/xiechangan123/helloworld package/helloworld
+# Remove dnsmasq-full
+sed -i 's/dnsmasq/dnsmasq-full/g' openwrt/include/target.mk
