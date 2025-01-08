@@ -19,4 +19,3 @@
 
 # Add packages
 git clone https://github.com/xiechangan123/homeproxy package/homeproxy
-git clone https://github.com/xiechangan123/openwrt-chinadns-ng package/openwrt-chinadns-ng
