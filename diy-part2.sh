@@ -25,3 +25,6 @@ sed -i 's/root:::0:99999:7:::/root:$1$0MHbqDVw$FMCswXfbF5apRBrTWoVfA0:19333:0:99
 # Modify default TimeZone
 sed -i 's/UTC/CST-8/g' package/base-files/files/bin/config_generate
 sed -i "/.*ttylogin='0'.*/i\		set system.@system[-1].zonename='Asia/Shanghai'" package/base-files/files/bin/config_generate
+
+# remove v2ray-geodata package from feeds (openwrt-22.03 & master)
+rm -rf feeds/packages/net/v2ray-geodata
