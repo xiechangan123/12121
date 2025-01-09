@@ -28,3 +28,4 @@ sed -i "/.*ttylogin='0'.*/i\		set system.@system[-1].zonename='Asia/Shanghai'" p
 
 # remove v2ray-geodata package from feeds (openwrt-22.03 & master)
 rm -rf feeds/packages/net/v2ray-geodata
+git clone https://github.com/sbwml/v2ray-geodata package/v2ray-geodata
